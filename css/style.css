@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.w-100{
+    height: 40vw;
+}
+.button{
+    display: none;
+}
+
+.icon{
+    background-color: whitesmoke;
+    color: rgb(243, 36, 71);
+    font-size: 1.1rem;
+    padding: 12px 14px;
+    border-radius: 5vw;
+    margin-top: 0.3vw;
+    margin-left: 1.5vw;
+    float: left;
+}
+.nav-top{
+    height: 4vw;
+}
+.chat-1{
+    width: 78vw;
+    height: 11vw;
+}
+.circle{
+    width: 4vw;
+    height: 4vw;
+}
+.circle-o{
+    width: 15vw;
+    height: 15vw;
+}
+.circle-o1{
+    width: 13.8vw;
+    height: 13.7vw;
+
+}
+
+/* =================main=============== */
+.container-left{
+    width: 17%;
+    height: 42.4vw;
+}
+/* ========2nd========== */
+.chat{
+    width: 80vw;
+    height: 27vw;
+}
+
+
+/* ============3rd============== */
+hr{
+    width: 80vw;
+
+}
+@media (max-width:768px){
+    .button{
+        display: block;
+    }
+    .icon{
+        padding: 10px 12px;
+       
+    }
+    .nav-top{
+        height: 16vw;
+    }
+    .offcanvas.show {
+        width: 61%;
+    }
+    .chat-2{
+        margin-top: 122vw !important;
+        
+    }
+    .card-b{
+        width: 90vw;
+        margin-top: 2vw;
+    }
+    .prog{
+        margin-left: 3vw !important;
+    }
+    .prog-1{
+        display: block !important;
+    }
+    .circle{
+        width: 16vw;
+        height: 16vw;
+    }
+    .circle-o{
+        width: 66vw;
+        height: 65vw;
+    }
+    .circle-o1{
+        width: 60.8vw;
+        height: 59.7vw;
+    
+    }
+    /* ====================main============ */
+    .container-left{
+        display: none;
+    }
+    /* ==========2nd=========== */
+    .chat{
+        width: auto;
+        height: auto;
+        overflow: scroll;
+        
+    }
+    
+    /* ===========3rd========== */
+    .row-1{
+        display: block;
+    }
+    hr{
+        width: 95vw;
+    }
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+          <!-- ======navbar==================== -->
+   <nav class="navbar navbar-light bg-danger p-2 fixed-top">
+    <div class="container-fluid">
+       <span class="navbar-brand text-white ms-4">LOGO</span>
+        <div class="navbar-right">
+          <span class="fav-icon"><i class="fa fa-search icon"></i></span>
+         <span class="fav-icon"><i class="fa fa-bell-o icon"></i></span>
+        <span class="fav-icon"><i class="fa fa-user-o icon"></i></span>
+      </div>
+    <button class="navbar-toggler button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+       <span class="navbar-toggler-icon"></span>
+         </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+           <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+     </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item"><a class="nav-link" href="./index.html"><i class="fa fa-th-large"> </i>Dashbord</a></li>
+               <li class="nav-item"><a class="nav-link" href="./travel/travel.html"><i class="fa fa-plus"> </i>Add Travel Claim</a> </li>
+                  <li class="nav-item"><a class="nav-link" href="./new claim/claim.html"><i class="fa fa-plus"> </i>Add Other Expense</a></li>
+                   <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-plus"> </i>Add Locl Conveyance</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-refresh"> </i>Sync</a> </li>
+              </ul>
+          </div>
+      </div>
+        </div>
+          </nav>
+
+            <div class="container-fluid nav-top"></div>
+
+            <!-- ====side bar======= -->
+
+            <div class="container-main d-flex">
+              <div class="container-left bg-danger">
+                <ul class="mt-5">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./index.html">  <i class="fa fa-th-large"></i> Dashbord</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./travel/travel.html">  <i class="fa fa-plus"></i> Add Travel Claim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./new claim/claim.html">  <i class="fa fa-plus"></i> Add Other Expense</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">  <i class="fa fa-plus"></i> Add Local Conveyance</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">  <i class="fa fa-refresh"></i> Sync</a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- =============right side=============== -->
+              <div class="container-right">
+                        <!-- card -->
+                <div class="row m-4 chat-1">
+                  <div class="col-sm-4">
+                    <div class="card border-danger card-b">
+                      <div class="card-body">
+                        <h5 class="card-title text-danger">Travel Claim
+                          <p class="float-end">₹8400</p>
+                        </h5>
+                        <hr class="w-auto bg-danger">
+                        <div class="d-flex ms-4 prog">
+                          <div class="border border-5 rounded-circle border-danger circle"><p class="text-danger m-2">70%</p></div>
+                          <div class="border border-5 rounded-circle border-danger ms-5 circle"><p class="text-danger m-2">40%</p></div>
+                          <div class="border border-5 rounded-circle border-danger ms-5 circle"><p class="text-danger m-2">28%</p></div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card border-danger card-b">
+                      <div class="card-body">
+                        <h5 class="card-title text-danger">Other Expense
+                          <p class="float-end">₹8400</p>
+                        </h5>
+                        <hr class="w-auto bg-danger">
+                        <div class="d-flex ms-4 prog">
+                          <div class="border border-5 rounded-circle border-danger circle"><p class="text-danger m-2">70%</p></div>
+                          <div class="border border-5 rounded-circle border-danger ms-5 circle"><p class="text-danger m-2">40%</p></div>
+                          <div class="border border-5 rounded-circle border-danger ms-5 circle"><p class="text-danger m-2">28%</p></div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="card border-danger card-b">
+                      <div class="card-body">
+                        <h5 class="card-title text-danger">Local Conveyance
+                          <p class="float-end">₹8400</p>
+                        </h5>
+                        <hr class="w-auto bg-danger">
+                        <div class="d-flex ms-4 prog">
+                          <div class="border border-5 rounded-circle border-danger circle"><p class="text-danger m-2">70%</p></div>
+                          <div class="border border-5 rounded-circle border-danger ms-5 circle"><p class="text-danger m-2">40%</p></div>
+                          <div class="border border-5 rounded-circle border-danger ms-5 circle"><p class="text-danger m-2">28%</p></div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <!-- button card -->
+                <div class="row m-4 chat-2">
+                <div class="col-sm-4">
+                  <div class="card border-danger card-b">
+                    <div class="card-body">
+                      <h3 class="card-title ">Claims analysis</h3>
+                      <hr class="w-auto bg-danger">
+                      <div class="container-fluid d-flex prog-1">
+                        <div class="border border-5 rounded-circle border-danger circle-o"><div class="border border-5 rounded-circle border-light m-1 circle-o1"></div></div>
+                         <div class="ms-4">
+                          <button type="button" class="btn btn-danger p-3"></button>
+                          <button type="button" class="btn btn-dark p-3 my-4"></button>
+                          <button type="button" class="btn btn-danger p-3"></button>
+                          <button type="button" class="btn btn-danger p-3 my-4"></button>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+
+
+              </div>
+              
+            </div>
+           
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+</html>

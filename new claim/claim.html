@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+         <!--================= navbar================== -->
+   <nav class="navbar navbar-light bg-danger p-2 fixed-top">
+    <div class="container-fluid">
+       <span class="navbar-brand text-white ms-4">LOGO</span>
+        <div class="navbar-right">
+          <span class="fav-icon"><i class="fa fa-search icon"></i></span>
+         <span class="fav-icon"><i class="fa fa-bell-o icon"></i></span>
+        <span class="fav-icon"><i class="fa fa-user-o icon"></i></span>
+      </div>
+    <button class="navbar-toggler button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+       <span class="navbar-toggler-icon"></span>
+         </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+           <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+     </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item"><a class="nav-link" href="../index.html"><i class="fa fa-th-large"></i> Dashbord</a> </li>
+              <li class="nav-item"><a class="nav-link" href="../travel/travel.html"><i class="fa fa-plus"></i> Add Travel Claim</a></li>
+                <li class="nav-item"><a class="nav-link" href="../new claim/claim.html"><i class="fa fa-plus"></i> Add Other Expense</a> </li>
+                  <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-plus"></i> Add Locl Conveyance</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-refresh"></i> Sync</a></li>
+           </ul>
+        </div>
+      </div>
+        </div>
+          </nav>
+            <div class="container-fluid nav-top"></div>
+
+            <div class="container-main d-flex">
+              <div class="container-left bg-danger">
+                <ul class="mt-5">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="../index.html">  <i class="fa fa-th-large"></i> Dashbord</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="../travel/travel.html">  <i class="fa fa-plus"></i> Add Travel Claim</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="../new claim/claim.html">  <i class="fa fa-plus"></i> Add Other Expense</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">  <i class="fa fa-plus"></i> Add Local Conveyance</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">  <i class="fa fa-refresh"></i> Sync</a>
+                  </li>
+                </ul>
+
+              </div>
+              <div class="container-right">
+                <h3 class="p-3">Travel Claim</h3>
+                <hr class="ms-3">
+                <p class="ms-3">Back</p>
+
+                <!-- ===========form========= -->
+                <form class=" ms-3" action="">
+                  <div class="row row-1">
+                   <div class="col">
+                     <label for="form">Employee</label>
+                      <input type="text" class="form-control" placeholder="69696-Anu rani">
+                        </div>
+                          <div class="col">
+                           <label for="form">Agenda</label>
+                           <input type="text" class="form-control" placeholder="Please enter your agenda here">
+                          </div>
+                         <div class="col">
+                        <label for="form">Approval File</label>
+                       <input type="file" class="form-control">
+                    </div>
+                 </div>
+               </form>
+               <!-- ========chat list====== -->
+                <div class="card m-3">
+                  <div class="card-header">
+                    Section 1. Travel Detail
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <label for="form">From</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Select Start Place</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                        </select>
+                      </div>
+                      <div class="col">
+                        <label for="form">To</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Select End Place</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col">
+                        <input type="date" class="form-control">
+    
+                      </div>
+                      <div class="col">
+                        <input type="date" class="form-control">
+    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+                <button type="button" class="btn btn-light ms-3">ADD INTERMEDIATE CITY</button>
+              
+                <hr class="ms-3">
+                <!--  -->
+                <button type="button" class="btn btn-danger px-5 m-5">SAVE</button>
+              </div>
+              
+            </div>
+           
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -3,6 +3,10 @@
     margin: 0;
     list-style: none;
 }
+a{
+    text-decoration: none;
+
+}
 .w-100{
     height: 40vw;
 }
@@ -23,13 +27,9 @@
 .nav-top{
     height: 4vw;
 }
-.chat-1{
-    width: 78vw;
-    height: 11vw;
-}
 .circle{
-    width: 4vw;
-    height: 4vw;
+    width: 3.8rem;
+    height: 3.7rem;
 }
 .circle-o{
     width: 15vw;
@@ -42,15 +42,14 @@
 }
 
 /* =================main=============== */
+.container-main{
+    width: 100%;
+}
 .container-left{
     width: 17%;
     height: 42.4vw;
 }
 /* ========2nd========== */
-.chat{
-    width: 80vw;
-    height: 27vw;
-}
 
 
 /* ============3rd============== */
@@ -72,9 +71,8 @@ hr{
     .offcanvas.show {
         width: 61%;
     }
-    .chat-2{
-        margin-top: 122vw !important;
-        
+    .coll{
+        margin-left: -8vw;
     }
     .card-b{
         width: 90vw;
@@ -100,17 +98,40 @@ hr{
     
     }
     /* ====================main============ */
+    .container-right{
+        width: 96%;
+    }
     .container-left{
         display: none;
     }
     /* ==========2nd=========== */
     .chat{
-        width: auto;
-        height: auto;
-        overflow: scroll;
-        
+        width: 300vw;
+       
     }
-    
+    .head-paira{
+        margin-left: 14vw !important;
+        font-size: 2rem !important;
+    }
+    .chat-10{
+        height: 226vw;
+        overflow: scroll !important;
+    }
+    .page-btn{
+        float: none !important;
+        margin-top: 1rem;
+        margin-left: 0rem !important;
+    }
+    .w1-50{
+        display: block !important;
+        width: 92% !important;
+    }
+    .sel{
+        margin-top: 3vw;
+    }
+    .p1{
+        margin-left: 6vw;
+    }
     /* ===========3rd========== */
     .row-1{
         display: block;

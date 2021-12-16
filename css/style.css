@@ -27,18 +27,75 @@ a{
 .nav-top{
     height: 4vw;
 }
-.circle{
-    width: 3.8rem;
-    height: 3.7rem;
-}
-.circle-o{
-    width: 15vw;
-    height: 15vw;
-}
-.circle-o1{
-    width: 13.8vw;
-    height: 13.7vw;
+/* circle */
 
+.card-shawdo{
+    box-shadow: 0px 10px 0px black;
+}
+.circle-1{
+    width: 4vw;
+    height: 4vw;
+    border:  7px solid wheat;
+}
+.big-circle-1{
+    width: 18vw;
+    height: 18vw;
+    border: 12px solid wheat;
+    border-bottom-color: greenyellow;
+    border-top-color: rgb(189, 23, 51);
+    border-left-color: red;
+    border-right-color: blue;
+}
+.big-circle-2{
+    width: 15.9vw;
+    height: 15.9vw;
+    border: 6px solid rgb(231, 223, 207);
+}
+.big-circle-num{
+    position: absolute;
+    margin-left: 5vw;
+    margin-top: 5.5vw !important;
+}
+.big-circle-text{
+    margin-left: -1vw;
+}
+.btn-2{
+    width: 2vw;
+    height: 2vw;
+    background-color: red;
+}
+.btn-22{
+    width: 2vw;
+    height: 2vw;
+    background-color: greenyellow;
+}
+.btn-23{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(197, 88, 88);
+}
+.btn-24{
+    width: 2vw;
+    height: 2vw;
+    background-color: rgb(104, 43, 43);
+}
+.card-b{
+    border-radius: 1vw;
+}
+.apporval{
+    position: absolute;
+    margin-top: -2vw !important;
+    margin-left: 3vw;
+}
+.cal-body{
+    width: 32vw;
+    border-radius: 1vw;
+}
+.number{
+    margin-left: 3vw;
+}
+.card-num{
+    margin-left: -2vw;
 }
 
 /* =================main=============== */
@@ -47,10 +104,12 @@ a{
 }
 .container-left{
     width: 17%;
-    height: 42.4vw;
+    height: auto;
 }
 /* ========2nd========== */
-
+.chat{
+    background-color: rgb(238, 202, 202);
+}
 
 /* ============3rd============== */
 hr{
@@ -71,31 +130,73 @@ hr{
     .offcanvas.show {
         width: 61%;
     }
-    .coll{
-        margin-left: -8vw;
-    }
-    .card-b{
-        width: 90vw;
-        margin-top: 2vw;
-    }
-    .prog{
-        margin-left: 3vw !important;
-    }
-    .prog-1{
+    /* card */
+    .main{
         display: block !important;
     }
-    .circle{
-        width: 16vw;
-        height: 16vw;
+    .main-1{
+        display: block !important;
+        width: 100vw;
     }
-    .circle-o{
-        width: 66vw;
-        height: 65vw;
+    .circle-box{
+        display: block !important;
     }
-    .circle-o1{
-        width: 60.8vw;
-        height: 59.7vw;
-    
+    .circle-1{
+        width: 13vw;
+        height: 13vw;
+        border:  7px solid wheat;
+    }
+    .sub{
+        margin-left: 0vw !important;
+    }
+    .sub-1{
+        margin-left: -4vw !important;
+    }
+    .big-circle-1{
+        width: 63vw;
+        height: 63vw;
+    }
+    .big-circle-2{
+        width: 53.9vw;
+        height: 53.9vw;
+    }
+    .big-circle-num{
+        margin-left: 18vw;
+        margin-top: 17vw !important;
+    }
+    .big-circle-text{
+        margin-left: -7vw;
+    }
+    .btn-2{
+        width: 6vw;
+        height: 6vw;
+    }
+    .btn-22{
+        width: 6vw;
+        height: 6vw;
+    }
+    .btn-23{
+        width: 6vw;
+        height: 6vw;
+    }
+    .btn-24{
+        width: 6vw;
+        height: 6vw;
+    }
+    .apporval{
+        margin-left: 9vw;
+        margin-top: -6.3vw !important;
+    }
+    .cal-body{
+        width: 90vw;
+        margin-top: 5vw;
+        margin-left: -2vw;
+    }
+    .number{
+        margin-left: 8vw;
+    }
+    .card-num{
+        margin-left: -12vw;
     }
     /* ====================main============ */
     .container-right{
@@ -116,6 +217,16 @@ hr{
     .chat-10{
         height: 226vw;
         overflow: scroll !important;
+    }
+    .head-text{
+        margin-top: 2vw;
+        margin-left: -5vw;
+    }
+    .head-text-1{
+        margin-left: 8vw !important;
+    }
+    .head-text-2{
+        margin-left: 7vw !important;
     }
     .page-btn{
         float: none !important;

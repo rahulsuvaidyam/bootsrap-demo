@@ -35,7 +35,8 @@ a{
 .circle-1{
     width: 4vw;
     height: 4vw;
-    border:  7px solid wheat;
+    border:  7px solid #ed400f;
+    
 }
 .big-circle-1{
     width: 18vw;
@@ -142,8 +143,8 @@ hr{
         display: block !important;
     }
     .circle-1{
-        width: 13vw;
-        height: 13vw;
+        width: 14vw;
+        height: 14vw;
         border:  7px solid wheat;
     }
     .sub{
@@ -155,6 +156,7 @@ hr{
     .big-circle-1{
         width: 63vw;
         height: 63vw;
+        margin-left: 5vw;
     }
     .big-circle-2{
         width: 53.9vw;

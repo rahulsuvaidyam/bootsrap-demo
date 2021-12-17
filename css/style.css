@@ -35,7 +35,25 @@ a{
 .circle-1{
     width: 4vw;
     height: 4vw;
-    border:  7px solid #ed400f;
+    border:  7px solid whitesmoke;
+    border-bottom-color: red;
+    border-top-color: red;
+      border-right-color: red;
+    
+}
+.circle-2{
+    width: 4vw;
+    height: 4vw;
+    border:  7px solid whitesmoke;
+    border-bottom-color: red;
+      border-right-color: red;
+}
+.circle-3{
+    width: 4vw;
+    height: 4vw;
+    border:  7px solid whitesmoke;
+    border-bottom-color: red;
+    
     
 }
 .big-circle-1{
@@ -145,7 +163,14 @@ hr{
     .circle-1{
         width: 14vw;
         height: 14vw;
-        border:  7px solid #ed400f;
+    }
+    .circle-2{
+        width: 14vw;
+        height: 14vw;
+    }
+    .circle-3{
+        width: 14vw;
+        height: 14vw;
     }
     .sub{
         margin-left: 0vw !important;
@@ -251,5 +276,8 @@ hr{
     }
     hr{
         width: 95vw;
+    }
+    .save{
+        margin-left: 31vw !important;
     }
 }
